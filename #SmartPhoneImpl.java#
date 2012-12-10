@@ -4,7 +4,6 @@ public class SmartPhoneImpl extends MobilePhoneImpl {
 		super(brand);
 	}
 	
-	@Override
 	public void playGame(String gameName) {
 		System.out.println("Launching game " + gameName);
 	}

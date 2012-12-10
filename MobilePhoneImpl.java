@@ -1,10 +1,14 @@
 public class MobilePhoneImpl extends OldPhoneImpl {
 	
+	public MobilePhoneImpl(String brand) {
+		super(brand);
+	}
+	
 	public void ringAlarm(String message) {
 		System.out.println(message);
 	}
 	
-	public void playGame(String gameName) {
+	private void playGame(String gameName) {
 		System.out.println("Launching game " + gameName);
 	}
 	
