@@ -1,0 +1,14 @@
+public abstract class NotEggLayer extends Animal {
+	
+	public NotEggLayer(String name, String sound) {
+		super(name,sound);
+	}
+	
+	public void giveBirth() {
+		System.out.println("Giving birth...");
+	}
+	
+	public void reproduce() {
+		giveBirth();
+	}	
+}

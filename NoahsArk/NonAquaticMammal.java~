@@ -1,0 +1,8 @@
+public class Mammal extends NonEggLayer {
+	
+	public Mammal(String name, String sound) {
+		super(name,sound);
+	}
+	
+}
+	

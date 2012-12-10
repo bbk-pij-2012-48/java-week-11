@@ -1,0 +1,6 @@
+public class Insect extends NonFlying {
+	 
+	public Insect(String name, String sound) {
+		super(name,sound);
+	}
+}
